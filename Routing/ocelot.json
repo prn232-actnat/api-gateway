@@ -1,8 +1,20 @@
 {
   "Routes": [
-    // User Service
+    // --- User Service (Port 7001) ---
     {
-      "DownstreamPathTemplate": "/api/v1/user",
+      "UpstreamPathTemplate": "/api/v1/user/{everything}",
+      "DownstreamPathTemplate": "/api/v1/user/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7001
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/user/swagger/{everything}",
+      "DownstreamPathTemplate": "/swagger/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -10,12 +22,24 @@
           "Port": 7001
         }
       ],
-      "UpStreamPathTemplate": "/api/user",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+      "UpstreamHttpMethod": [ "GET" ]
     },
-    // Learning Management Service
+
+    // --- Learning Management Service (Port 7002) ---
     {
-      "DownstreamPathTemplate": "/api/v1/management",
+      "UpstreamPathTemplate": "/api/v1/management/{everything}",
+      "DownstreamPathTemplate": "/api/v1/management/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7002
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/management/swagger/{everything}",
+      "DownstreamPathTemplate": "/swagger/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -23,12 +47,24 @@
           "Port": 7002
         }
       ],
-      "UpstreamPathTemplate": "/api/v1/management",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+      "UpstreamHttpMethod": [ "GET" ]
     },
-    // Learning Achievement Service
+
+    // --- Learning Achievement Service (Port 7003) ---
     {
-      "DownstreamPathTemplate": "/api/v1/achievement",
+      "UpstreamPathTemplate": "/api/v1/achievement/{everything}",
+      "DownstreamPathTemplate": "/api/v1/achievement/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7003
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/achievement/swagger/{everything}",
+      "DownstreamPathTemplate": "/swagger/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -36,12 +72,24 @@
           "Port": 7003
         }
       ],
-      "UpstreamPathTemplate": "/api/v1/achievement",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+      "UpstreamHttpMethod": [ "GET" ]
     },
-    // Exam Service
+
+    // --- Exam Service (Port 7004) ---
     {
-      "DownstreamPathTemplate": "/api/v1/exam",
+      "UpstreamPathTemplate": "/api/v1/exam/{everything}",
+      "DownstreamPathTemplate": "/api/v1/exam/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7004
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/exam/swagger/{everything}",
+      "DownstreamPathTemplate": "/swagger/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -49,12 +97,24 @@
           "Port": 7004
         }
       ],
-      "UpstreamPathTemplate": "/api/v1/exam",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+      "UpstreamHttpMethod": [ "GET" ]
     },
-    // AI Service
+
+    // --- AI Service (Port 7005) ---
     {
-      "DownstreamPathTemplate": "/api/v1/ai",
+      "UpstreamPathTemplate": "/api/v1/ai/{everything}",
+      "DownstreamPathTemplate": "/api/v1/ai/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7005
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/ai/swagger/{everything}",
+      "DownstreamPathTemplate": "/swagger/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -62,11 +122,10 @@
           "Port": 7005
         }
       ],
-      "UpstreamPathTemplate": "/api/v1/ai",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+      "UpstreamHttpMethod": [ "GET" ]
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:7000"
+    "BaseUrl": "https://localhost:7000"
   }
 }

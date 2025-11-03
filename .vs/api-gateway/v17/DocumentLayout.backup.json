@@ -11,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{E3BCA508-F247-437B-911B-D8FED01259B2}|Routing\\Routing.csproj|solutionrelative:routing\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3BCA508-F247-437B-911B-D8FED01259B2}|Routing\\Routing.csproj|s:\\university\\semester_8\\prn232\\project\\api-gateway\\routing\\routing.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{E3BCA508-F247-437B-911B-D8FED01259B2}|Routing\\Routing.csproj|solutionrelative:routing\\routing.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{E3BCA508-F247-437B-911B-D8FED01259B2}|Routing\\Routing.csproj|s:\\university\\semester_8\\prn232\\project\\api-gateway\\routing\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E3BCA508-F247-437B-911B-D8FED01259B2}|Routing\\Routing.csproj|solutionrelative:routing\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,39 +86,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ocelot.json",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\api-gateway\\Routing\\ocelot.json",
-              "RelativeDocumentMoniker": "Routing\\ocelot.json",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\api-gateway\\Routing\\ocelot.json",
-              "RelativeToolTip": "Routing\\ocelot.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-16T08:25:54.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "launchSettings.json",
               "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\api-gateway\\Routing\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Routing\\Properties\\launchSettings.json",
               "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\api-gateway\\Routing\\Properties\\launchSettings.json",
               "RelativeToolTip": "Routing\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-16T08:25:48.5Z"
+              "WhenOpened": "2025-11-03T06:06:58.427Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Routing",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\api-gateway\\Routing\\Routing.csproj",
-              "RelativeDocumentMoniker": "Routing\\Routing.csproj",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\api-gateway\\Routing\\Routing.csproj",
-              "RelativeToolTip": "Routing\\Routing.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-16T08:25:46.055Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\api-gateway\\Routing\\appsettings.json",
+              "RelativeDocumentMoniker": "Routing\\appsettings.json",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\api-gateway\\Routing\\appsettings.json",
+              "RelativeToolTip": "Routing\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-03T06:14:00.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\api-gateway\\Routing\\ocelot.json",
+              "RelativeDocumentMoniker": "Routing\\ocelot.json",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\api-gateway\\Routing\\ocelot.json",
+              "RelativeToolTip": "Routing\\ocelot.json",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAQwIEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-03T06:08:53.524Z",
+              "EditorCaption": ""
             }
           ]
         },
