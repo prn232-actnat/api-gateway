@@ -92,10 +92,9 @@
               "RelativeDocumentMoniker": "Routing\\Properties\\launchSettings.json",
               "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\api-gateway\\Routing\\Properties\\launchSettings.json",
               "RelativeToolTip": "Routing\\Properties\\launchSettings.json",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-03T06:06:58.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T06:06:58.427Z"
             },
             {
               "$type": "Document",
@@ -107,8 +106,7 @@
               "RelativeToolTip": "Routing\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-03T06:14:00.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T06:14:00.883Z"
             },
             {
               "$type": "Document",
@@ -118,7 +116,7 @@
               "RelativeDocumentMoniker": "Routing\\ocelot.json",
               "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\api-gateway\\Routing\\ocelot.json",
               "RelativeToolTip": "Routing\\ocelot.json",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAQwIEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAADgv4MAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-11-03T06:08:53.524Z",
               "EditorCaption": ""
