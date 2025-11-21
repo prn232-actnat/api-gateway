@@ -77,7 +77,7 @@
 
     // --- Exam Service (Port 7004) ---
     {
-      "UpstreamPathTemplate": "/api/v1/exam/swagger/{everything}",
+      "UpstreamPathTemplate": "/api/v1/Exams/swagger/{everything}",
       "DownstreamPathTemplate": "/swagger/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
@@ -89,8 +89,8 @@
       "UpstreamHttpMethod": [ "GET" ]
     },
     {
-      "UpstreamPathTemplate": "/api/v1/exam/{everything}",
-      "DownstreamPathTemplate": "/api/v1/exam/{everything}",
+      "UpstreamPathTemplate": "/api/v1/Exams/{everything}",
+      "DownstreamPathTemplate": "/api/v1/Exams/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -102,27 +102,64 @@
 
     // --- AI Service (Port 7005) ---
     {
-      "UpstreamPathTemplate": "/api/v1/ai/swagger/{everything}",
-      "DownstreamPathTemplate": "/swagger/{everything}",
+      "UpstreamPathTemplate": "/api/v1/ai/swagger",
+      "DownstreamPathTemplate": "/docs",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7005
+          "Port": 8000
         }
       ],
       "UpstreamHttpMethod": [ "GET" ]
     },
     {
-      "UpstreamPathTemplate": "/api/v1/ai/{everything}",
-      "DownstreamPathTemplate": "/api/v1/ai/{everything}",
+      "UpstreamPathTemplate": "/api/v1/ai/swagger/{everything}",
+      "DownstreamPathTemplate": "/docs/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7005
+          "Port": 8000
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "UpstreamPathTemplate": "/chat",
+      "DownstreamPathTemplate": "/chat",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8000
         }
       ]
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/ai/openapi.json",
+      "DownstreamPathTemplate": "/openapi.json",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8000
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "UpstreamPathTemplate": "/openapi.json",
+      "DownstreamPathTemplate": "/openapi.json",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8000
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ]
     }
   ],
   "GlobalConfiguration": {
